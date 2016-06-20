@@ -18,7 +18,7 @@ RCT_EXPORT_METHOD(createSquarePayment:(NSString *)myAmount
 										withNotes:(NSString *) myNotes)
 {
 	// Always set the client ID before creating your first API request.
-	[SCCAPIRequest setClientID:@"sq0atp-0ets2xEyhRgwZLfnep5xsg"];
+	[SCCAPIRequest setClientID:@"sq0idp-YPihN_0v1U_xQQXdF2UQKQ"];
 	
 	// Replace with your app's callback URL.
 	NSURL *const callbackURL = [NSURL URLWithString:@"my-square-register://payment-complete"];
