@@ -1,0 +1,1 @@
+../../../SquareRegisterSDK/SquareRegisterSDK/SCCAPIRequest.h

@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054B7335335FF08DC28FD43536092409 /* NSURL+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D69A9AFEA6D6267FB83537697D3CAE13 /* NSURL+SCCAdditions.m */; };
+		055F631151D9129F5E9684A0CD55EE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		32012CC11FD88E78CE14C299228A4002 /* SCCMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3E780F913D18031C86FEA62CC4864 /* SCCMoney.m */; };
+		38A1A10A71B1BF8701A48A2B6A91527D /* SCCMoney.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CDA4A8714EFF0F0052C4113618B2D5 /* SCCMoney.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9EAE2DAACF97A6D4FBEE4176797E9F /* SCCAPIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC3AC260F21B3C1BE8BDDCD6B800FD0 /* SCCAPIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCFF47405B56871601BC7DCD10F6094 /* NSError+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13F89B2EE0FD386C2BE23BAAB339E27 /* NSError+SCCAdditions.m */; };
+		5D632562656650D24406E1B853A6229A /* NSError+SCCAPIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B320E149BF415B94A08580D49AA620B /* NSError+SCCAPIAdditions.m */; };
+		60408BCF61FC49CEE3088A46795789C8 /* NSURL+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA6C795F2F648E8B545B8386A93F9AF /* NSURL+SCCAdditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6069A90FC5BF32784D3D43D1683D9898 /* Pods-SquareRegister-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B793868F601F77063325E46E8CAEDD2 /* Pods-SquareRegister-dummy.m */; };
+		6193B9BD7C3A1C45CE2F4610A5790413 /* NSDictionary+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4D8B5F33AB4CB18BBE4C3AC1E106C7 /* NSDictionary+SCCAdditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7245223CD590AC87D8766EA0CA1A706F /* SCCAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B726E53CF7C955A751551F7FE931AFB5 /* SCCAPIRequest.m */; };
+		7B9B91D7AAF51BA37A68F0A1273DC00E /* SCCAPIRequest+Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B87FEAD903DE2485BB0EE22A924F9629 /* SCCAPIRequest+Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD47D8FD477BA53211753D64CD71757 /* SCCAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AFCBA5FD7BEBFE35876B04413145D /* SCCAPIResponse.m */; };
+		81A526B6AE8A5047493E2C25A9511FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8480BC3D041704577DAB33EBBB3C91E3 /* SCCMoney+Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F66CA926341142F10786CD80C143FE /* SCCMoney+Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4BD330A128922569A276A3A134F990 /* SquareRegisterSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC2F2B498280A44836DFD71DCF046EA /* SquareRegisterSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5B3967E421A41E6B4CCC272F121847 /* SCCAPIConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CBD44E59B73B120A646F326FA8EC67 /* SCCAPIConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45F5755EDFDD1E2C4F22EDE383F9F33 /* NSError+SCCAPIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 613796A7A0F5E94AD6BF90F6ED97C304 /* NSError+SCCAPIAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBD53A48181802C5C39D5812293C1CE4 /* SCCAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA14F842ACEC9F13B0DC5C56E26BE5 /* SCCAPIConnection.m */; };
+		C40D593D261A8155793A700599F62800 /* NSDictionary+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0062C3741F363444C59D8D842B9D19A /* NSDictionary+SCCAdditions.m */; };
+		C4BD77C5DE562BEB30DD99B4C828DD25 /* NSError+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF2EE43EB81015250868A6B50595E7D /* NSError+SCCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98DA41A7D20EBB19BF880763BC05072 /* NSError+SCCAPISerializationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6019314B263EF2619AC022AC8AB26FE7 /* NSError+SCCAPISerializationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9242D44C8C529A130C48AC2C9E936D6 /* SCCAPIResponse+Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 078FE2A1BD1864BFD9F46BAE0E17E2C5 /* SCCAPIResponse+Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC37ADC1B40FEB649F344EA3B699360D /* SCCAPIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B66E08018F4E4AA822A2B3DA74B3D893 /* SCCAPIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6F255C9061B8DFEBC43B12452C0BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ECCA714C4C73586E56B374AC75338801 /* SquareRegisterSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21683AB734E66DC59EDFFDE81250002C /* SquareRegisterSDK-dummy.m */; };
+		F6379578B2CC03B8C8325A0D22AAD64F /* Pods-SquareRegisterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9554F9E113BFB6B64FF6414B04A35AB7 /* Pods-SquareRegisterTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD08A5F4CD1C957CD3F6897FDF30BFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A950A220F0589D0DE216A869994C95;
+			remoteInfo = SquareRegisterSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078FE2A1BD1864BFD9F46BAE0E17E2C5 /* SCCAPIResponse+Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCCAPIResponse+Serialization.h"; path = "SquareRegisterSDK/SCCAPIResponse+Serialization.h"; sourceTree = "<group>"; };
+		0991B81339C474C32BDFFB698AE20A01 /* SquareRegisterSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquareRegisterSDK-prefix.pch"; sourceTree = "<group>"; };
+		0BE47A12226A5380EC35294D60A0049F /* Pods-SquareRegisterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquareRegisterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CE3E780F913D18031C86FEA62CC4864 /* SCCMoney.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCMoney.m; path = SquareRegisterSDK/SCCMoney.m; sourceTree = "<group>"; };
+		18AA71E1CABEEDCB9106C40CCB1D756D /* Pods-SquareRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquareRegister.debug.xcconfig"; sourceTree = "<group>"; };
+		21683AB734E66DC59EDFFDE81250002C /* SquareRegisterSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SquareRegisterSDK-dummy.m"; sourceTree = "<group>"; };
+		2DA6C795F2F648E8B545B8386A93F9AF /* NSURL+SCCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SCCAdditions.h"; path = "SquareRegisterSDK/NSURL+SCCAdditions.h"; sourceTree = "<group>"; };
+		3047053724E4A08B52DCF72D9D030DFF /* Pods-SquareRegisterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SquareRegisterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		315DB40FAAE312F436264397437E02F6 /* Pods-SquareRegisterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SquareRegisterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EF2EE43EB81015250868A6B50595E7D /* NSError+SCCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SCCAdditions.h"; path = "SquareRegisterSDK/NSError+SCCAdditions.h"; sourceTree = "<group>"; };
+		5B320E149BF415B94A08580D49AA620B /* NSError+SCCAPIAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+SCCAPIAdditions.m"; path = "SquareRegisterSDK/NSError+SCCAPIAdditions.m"; sourceTree = "<group>"; };
+		6019314B263EF2619AC022AC8AB26FE7 /* NSError+SCCAPISerializationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SCCAPISerializationAdditions.h"; path = "SquareRegisterSDK/NSError+SCCAPISerializationAdditions.h"; sourceTree = "<group>"; };
+		613796A7A0F5E94AD6BF90F6ED97C304 /* NSError+SCCAPIAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SCCAPIAdditions.h"; path = "SquareRegisterSDK/NSError+SCCAPIAdditions.h"; sourceTree = "<group>"; };
+		6271A28B5A3FFB6A1884466430C4F1A7 /* Pods-SquareRegister-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquareRegister-frameworks.sh"; sourceTree = "<group>"; };
+		62C51AD28FD3E08AEFCAD2B2393BE79B /* Pods-SquareRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquareRegister.release.xcconfig"; sourceTree = "<group>"; };
+		6A5D190630CD950B8A09F7DBF316BAD0 /* Pods-SquareRegisterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquareRegisterTests-frameworks.sh"; sourceTree = "<group>"; };
+		74F66CA926341142F10786CD80C143FE /* SCCMoney+Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCCMoney+Serialization.h"; path = "SquareRegisterSDK/SCCMoney+Serialization.h"; sourceTree = "<group>"; };
+		786AFCBA5FD7BEBFE35876B04413145D /* SCCAPIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCAPIResponse.m; path = SquareRegisterSDK/SCCAPIResponse.m; sourceTree = "<group>"; };
+		8A4D8B5F33AB4CB18BBE4C3AC1E106C7 /* NSDictionary+SCCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SCCAdditions.h"; path = "SquareRegisterSDK/NSDictionary+SCCAdditions.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9554F9E113BFB6B64FF6414B04A35AB7 /* Pods-SquareRegisterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SquareRegisterTests-dummy.m"; sourceTree = "<group>"; };
+		97F1511EC6F607C0EA23FCC66FEB9DD4 /* Pods-SquareRegister-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SquareRegister-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B793868F601F77063325E46E8CAEDD2 /* Pods-SquareRegister-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SquareRegister-dummy.m"; sourceTree = "<group>"; };
+		9CC3AC260F21B3C1BE8BDDCD6B800FD0 /* SCCAPIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIResponse.h; path = SquareRegisterSDK/SCCAPIResponse.h; sourceTree = "<group>"; };
+		A13F89B2EE0FD386C2BE23BAAB339E27 /* NSError+SCCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+SCCAdditions.m"; path = "SquareRegisterSDK/NSError+SCCAdditions.m"; sourceTree = "<group>"; };
+		A5AA14F842ACEC9F13B0DC5C56E26BE5 /* SCCAPIConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCAPIConnection.m; path = SquareRegisterSDK/SCCAPIConnection.m; sourceTree = "<group>"; };
+		A8CF8F896E17386B4FD8B2137F2E907F /* libPods-SquareRegisterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareRegisterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC2F2B498280A44836DFD71DCF046EA /* SquareRegisterSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SquareRegisterSDK.h; path = SquareRegisterSDK/SquareRegisterSDK.h; sourceTree = "<group>"; };
+		B178CADA8F978B5C6890E13012A99C26 /* libPods-SquareRegister.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareRegister.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66E08018F4E4AA822A2B3DA74B3D893 /* SCCAPIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIRequest.h; path = SquareRegisterSDK/SCCAPIRequest.h; sourceTree = "<group>"; };
+		B726E53CF7C955A751551F7FE931AFB5 /* SCCAPIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCAPIRequest.m; path = SquareRegisterSDK/SCCAPIRequest.m; sourceTree = "<group>"; };
+		B87FEAD903DE2485BB0EE22A924F9629 /* SCCAPIRequest+Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCCAPIRequest+Serialization.h"; path = "SquareRegisterSDK/SCCAPIRequest+Serialization.h"; sourceTree = "<group>"; };
+		C0062C3741F363444C59D8D842B9D19A /* NSDictionary+SCCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SCCAdditions.m"; path = "SquareRegisterSDK/NSDictionary+SCCAdditions.m"; sourceTree = "<group>"; };
+		CE644E9B037835FF435BF694773AFF9B /* libSquareRegisterSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSquareRegisterSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF8C38C67FACF30E81A29CB823CCEFF4 /* Pods-SquareRegisterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SquareRegisterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2CDA4A8714EFF0F0052C4113618B2D5 /* SCCMoney.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCMoney.h; path = SquareRegisterSDK/SCCMoney.h; sourceTree = "<group>"; };
+		D4CBD44E59B73B120A646F326FA8EC67 /* SCCAPIConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIConnection.h; path = SquareRegisterSDK/SCCAPIConnection.h; sourceTree = "<group>"; };
+		D69A9AFEA6D6267FB83537697D3CAE13 /* NSURL+SCCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SCCAdditions.m"; path = "SquareRegisterSDK/NSURL+SCCAdditions.m"; sourceTree = "<group>"; };
+		ED6B0839B3FC2FD037DE5AE734D948C0 /* Pods-SquareRegister-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SquareRegister-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4FA1008D0D79A27ED35926A963052D4 /* Pods-SquareRegisterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquareRegisterTests-resources.sh"; sourceTree = "<group>"; };
+		F6A9F86B6FE85CB458D33DD880A9FBDA /* SquareRegisterSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SquareRegisterSDK.xcconfig; sourceTree = "<group>"; };
+		FD5CE5ED23C43A492D50AB3235D67FFD /* Pods-SquareRegister-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SquareRegister-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079CCA7AD016102FBA4E4E1DEB8CB9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A526B6AE8A5047493E2C25A9511FE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A9D457E9D97EE6956F143C162FE7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6F255C9061B8DFEBC43B12452C0BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CB51DAF2727BCD63DC1BDB52091529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F631151D9129F5E9684A0CD55EE3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED185C425A0644C438CD38BC65F5FBF /* SquareRegisterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8A4D8B5F33AB4CB18BBE4C3AC1E106C7 /* NSDictionary+SCCAdditions.h */,
+				C0062C3741F363444C59D8D842B9D19A /* NSDictionary+SCCAdditions.m */,
+				4EF2EE43EB81015250868A6B50595E7D /* NSError+SCCAdditions.h */,
+				A13F89B2EE0FD386C2BE23BAAB339E27 /* NSError+SCCAdditions.m */,
+				613796A7A0F5E94AD6BF90F6ED97C304 /* NSError+SCCAPIAdditions.h */,
+				5B320E149BF415B94A08580D49AA620B /* NSError+SCCAPIAdditions.m */,
+				6019314B263EF2619AC022AC8AB26FE7 /* NSError+SCCAPISerializationAdditions.h */,
+				2DA6C795F2F648E8B545B8386A93F9AF /* NSURL+SCCAdditions.h */,
+				D69A9AFEA6D6267FB83537697D3CAE13 /* NSURL+SCCAdditions.m */,
+				D4CBD44E59B73B120A646F326FA8EC67 /* SCCAPIConnection.h */,
+				A5AA14F842ACEC9F13B0DC5C56E26BE5 /* SCCAPIConnection.m */,
+				B66E08018F4E4AA822A2B3DA74B3D893 /* SCCAPIRequest.h */,
+				B726E53CF7C955A751551F7FE931AFB5 /* SCCAPIRequest.m */,
+				B87FEAD903DE2485BB0EE22A924F9629 /* SCCAPIRequest+Serialization.h */,
+				9CC3AC260F21B3C1BE8BDDCD6B800FD0 /* SCCAPIResponse.h */,
+				786AFCBA5FD7BEBFE35876B04413145D /* SCCAPIResponse.m */,
+				078FE2A1BD1864BFD9F46BAE0E17E2C5 /* SCCAPIResponse+Serialization.h */,
+				D2CDA4A8714EFF0F0052C4113618B2D5 /* SCCMoney.h */,
+				0CE3E780F913D18031C86FEA62CC4864 /* SCCMoney.m */,
+				74F66CA926341142F10786CD80C143FE /* SCCMoney+Serialization.h */,
+				ABC2F2B498280A44836DFD71DCF046EA /* SquareRegisterSDK.h */,
+				887A077046B55571BDE548909D8C8FCA /* Support Files */,
+			);
+			path = SquareRegisterSDK;
+			sourceTree = "<group>";
+		};
+		0FB0F49A55E216D54315DA12025E53B3 /* Pods-SquareRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				315DB40FAAE312F436264397437E02F6 /* Pods-SquareRegisterTests-acknowledgements.markdown */,
+				3047053724E4A08B52DCF72D9D030DFF /* Pods-SquareRegisterTests-acknowledgements.plist */,
+				9554F9E113BFB6B64FF6414B04A35AB7 /* Pods-SquareRegisterTests-dummy.m */,
+				6A5D190630CD950B8A09F7DBF316BAD0 /* Pods-SquareRegisterTests-frameworks.sh */,
+				F4FA1008D0D79A27ED35926A963052D4 /* Pods-SquareRegisterTests-resources.sh */,
+				0BE47A12226A5380EC35294D60A0049F /* Pods-SquareRegisterTests.debug.xcconfig */,
+				CF8C38C67FACF30E81A29CB823CCEFF4 /* Pods-SquareRegisterTests.release.xcconfig */,
+			);
+			name = "Pods-SquareRegisterTests";
+			path = "Target Support Files/Pods-SquareRegisterTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B77A6325F4592A527F22DAA331AB702 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF19D7FAA0367DDC0B415D7FA51CFDB /* Pods-SquareRegister */,
+				0FB0F49A55E216D54315DA12025E53B3 /* Pods-SquareRegisterTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5EF19D7FAA0367DDC0B415D7FA51CFDB /* Pods-SquareRegister */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B0839B3FC2FD037DE5AE734D948C0 /* Pods-SquareRegister-acknowledgements.markdown */,
+				97F1511EC6F607C0EA23FCC66FEB9DD4 /* Pods-SquareRegister-acknowledgements.plist */,
+				9B793868F601F77063325E46E8CAEDD2 /* Pods-SquareRegister-dummy.m */,
+				6271A28B5A3FFB6A1884466430C4F1A7 /* Pods-SquareRegister-frameworks.sh */,
+				FD5CE5ED23C43A492D50AB3235D67FFD /* Pods-SquareRegister-resources.sh */,
+				18AA71E1CABEEDCB9106C40CCB1D756D /* Pods-SquareRegister.debug.xcconfig */,
+				62C51AD28FD3E08AEFCAD2B2393BE79B /* Pods-SquareRegister.release.xcconfig */,
+			);
+			name = "Pods-SquareRegister";
+			path = "Target Support Files/Pods-SquareRegister";
+			sourceTree = "<group>";
+		};
+		68996D0FF5A81AF7E0AF2267BD5B82D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B178CADA8F978B5C6890E13012A99C26 /* libPods-SquareRegister.a */,
+				A8CF8F896E17386B4FD8B2137F2E907F /* libPods-SquareRegisterTests.a */,
+				CE644E9B037835FF435BF694773AFF9B /* libSquareRegisterSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D6F6E8733E886E9A8251E20677E8549F /* Pods */,
+				68996D0FF5A81AF7E0AF2267BD5B82D7 /* Products */,
+				5B77A6325F4592A527F22DAA331AB702 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		887A077046B55571BDE548909D8C8FCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9F86B6FE85CB458D33DD880A9FBDA /* SquareRegisterSDK.xcconfig */,
+				21683AB734E66DC59EDFFDE81250002C /* SquareRegisterSDK-dummy.m */,
+				0991B81339C474C32BDFFB698AE20A01 /* SquareRegisterSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SquareRegisterSDK";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F6E8733E886E9A8251E20677E8549F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ED185C425A0644C438CD38BC65F5FBF /* SquareRegisterSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B12AB0575035E28525880C6E3CB5ECD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6193B9BD7C3A1C45CE2F4610A5790413 /* NSDictionary+SCCAdditions.h in Headers */,
+				C4BD77C5DE562BEB30DD99B4C828DD25 /* NSError+SCCAdditions.h in Headers */,
+				B45F5755EDFDD1E2C4F22EDE383F9F33 /* NSError+SCCAPIAdditions.h in Headers */,
+				C98DA41A7D20EBB19BF880763BC05072 /* NSError+SCCAPISerializationAdditions.h in Headers */,
+				60408BCF61FC49CEE3088A46795789C8 /* NSURL+SCCAdditions.h in Headers */,
+				9B5B3967E421A41E6B4CCC272F121847 /* SCCAPIConnection.h in Headers */,
+				7B9B91D7AAF51BA37A68F0A1273DC00E /* SCCAPIRequest+Serialization.h in Headers */,
+				DC37ADC1B40FEB649F344EA3B699360D /* SCCAPIRequest.h in Headers */,
+				D9242D44C8C529A130C48AC2C9E936D6 /* SCCAPIResponse+Serialization.h in Headers */,
+				3F9EAE2DAACF97A6D4FBEE4176797E9F /* SCCAPIResponse.h in Headers */,
+				8480BC3D041704577DAB33EBBB3C91E3 /* SCCMoney+Serialization.h in Headers */,
+				38A1A10A71B1BF8701A48A2B6A91527D /* SCCMoney.h in Headers */,
+				8E4BD330A128922569A276A3A134F990 /* SquareRegisterSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02A950A220F0589D0DE216A869994C95 /* SquareRegisterSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87EDD387FCD1C4D3F0CA8C18C6485FB /* Build configuration list for PBXNativeTarget "SquareRegisterSDK" */;
+			buildPhases = (
+				B756A718C2ED456F5B8EC949C6C9BC8F /* Sources */,
+				079CCA7AD016102FBA4E4E1DEB8CB9E9 /* Frameworks */,
+				7B12AB0575035E28525880C6E3CB5ECD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareRegisterSDK;
+			productName = SquareRegisterSDK;
+			productReference = CE644E9B037835FF435BF694773AFF9B /* libSquareRegisterSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		12598B2E3621D4B97D3F6DE4E6B8BD0A /* Pods-SquareRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5851203FA2723C37B4500F51FEFFC62F /* Build configuration list for PBXNativeTarget "Pods-SquareRegisterTests" */;
+			buildPhases = (
+				7B55B56E5F07D6A78E3B6E922569AF41 /* Sources */,
+				15A9D457E9D97EE6956F143C162FE7FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SquareRegisterTests";
+			productName = "Pods-SquareRegisterTests";
+			productReference = A8CF8F896E17386B4FD8B2137F2E907F /* libPods-SquareRegisterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1B498603C935F07ACF137EFFD03E218 /* Pods-SquareRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B546FD6AE435C5A02CD57A54BA56D67F /* Build configuration list for PBXNativeTarget "Pods-SquareRegister" */;
+			buildPhases = (
+				BFE1E75DBE5CF746989C2AD6D2AE95DC /* Sources */,
+				A3CB51DAF2727BCD63DC1BDB52091529 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9FD371380B096DF4385E135B58F54D /* PBXTargetDependency */,
+			);
+			name = "Pods-SquareRegister";
+			productName = "Pods-SquareRegister";
+			productReference = B178CADA8F978B5C6890E13012A99C26 /* libPods-SquareRegister.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 68996D0FF5A81AF7E0AF2267BD5B82D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B498603C935F07ACF137EFFD03E218 /* Pods-SquareRegister */,
+				12598B2E3621D4B97D3F6DE4E6B8BD0A /* Pods-SquareRegisterTests */,
+				02A950A220F0589D0DE216A869994C95 /* SquareRegisterSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B55B56E5F07D6A78E3B6E922569AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6379578B2CC03B8C8325A0D22AAD64F /* Pods-SquareRegisterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B756A718C2ED456F5B8EC949C6C9BC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40D593D261A8155793A700599F62800 /* NSDictionary+SCCAdditions.m in Sources */,
+				4FCFF47405B56871601BC7DCD10F6094 /* NSError+SCCAdditions.m in Sources */,
+				5D632562656650D24406E1B853A6229A /* NSError+SCCAPIAdditions.m in Sources */,
+				054B7335335FF08DC28FD43536092409 /* NSURL+SCCAdditions.m in Sources */,
+				BBD53A48181802C5C39D5812293C1CE4 /* SCCAPIConnection.m in Sources */,
+				7245223CD590AC87D8766EA0CA1A706F /* SCCAPIRequest.m in Sources */,
+				7FD47D8FD477BA53211753D64CD71757 /* SCCAPIResponse.m in Sources */,
+				32012CC11FD88E78CE14C299228A4002 /* SCCMoney.m in Sources */,
+				ECCA714C4C73586E56B374AC75338801 /* SquareRegisterSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE1E75DBE5CF746989C2AD6D2AE95DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6069A90FC5BF32784D3D43D1683D9898 /* Pods-SquareRegister-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C9FD371380B096DF4385E135B58F54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SquareRegisterSDK;
+			target = 02A950A220F0589D0DE216A869994C95 /* SquareRegisterSDK */;
+			targetProxy = AD08A5F4CD1C957CD3F6897FDF30BFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2354D384F3173A3671E08729A6D6FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A9F86B6FE85CB458D33DD880A9FBDA /* SquareRegisterSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SquareRegisterSDK/SquareRegisterSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B79DC2FA779FF02904190E6F7B247B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A9F86B6FE85CB458D33DD880A9FBDA /* SquareRegisterSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SquareRegisterSDK/SquareRegisterSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C18A9C0B327D35B0AC81B5D2529C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AA71E1CABEEDCB9106C40CCB1D756D /* Pods-SquareRegister.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFDC864FF6D526A80C8EFEC0AF3ED867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE47A12226A5380EC35294D60A0049F /* Pods-SquareRegisterTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E530DF620FAECF9C3DF155145ACFC98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8C38C67FACF30E81A29CB823CCEFF4 /* Pods-SquareRegisterTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EDE1507E57EDDE6DEC1576923A4F4C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C51AD28FD3E08AEFCAD2B2393BE79B /* Pods-SquareRegister.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5851203FA2723C37B4500F51FEFFC62F /* Build configuration list for PBXNativeTarget "Pods-SquareRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDC864FF6D526A80C8EFEC0AF3ED867 /* Debug */,
+				E530DF620FAECF9C3DF155145ACFC98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B546FD6AE435C5A02CD57A54BA56D67F /* Build configuration list for PBXNativeTarget "Pods-SquareRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C18A9C0B327D35B0AC81B5D2529C3B /* Debug */,
+				EDE1507E57EDDE6DEC1576923A4F4C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87EDD387FCD1C4D3F0CA8C18C6485FB /* Build configuration list for PBXNativeTarget "SquareRegisterSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B79DC2FA779FF02904190E6F7B247B2 /* Debug */,
+				2354D384F3173A3671E08729A6D6FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

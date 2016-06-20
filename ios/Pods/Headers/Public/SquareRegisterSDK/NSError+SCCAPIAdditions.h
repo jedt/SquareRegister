@@ -1,0 +1,1 @@
+../../../SquareRegisterSDK/SquareRegisterSDK/NSError+SCCAPIAdditions.h

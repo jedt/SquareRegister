@@ -1,0 +1,1 @@
+../../../SquareRegisterSDK/SquareRegisterSDK/SCCMoney+Serialization.h

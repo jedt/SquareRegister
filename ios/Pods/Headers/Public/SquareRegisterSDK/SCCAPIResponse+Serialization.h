@@ -1,0 +1,1 @@
+../../../SquareRegisterSDK/SquareRegisterSDK/SCCAPIResponse+Serialization.h

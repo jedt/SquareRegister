@@ -1,0 +1,1 @@
+../../../SquareRegisterSDK/SquareRegisterSDK/NSDictionary+SCCAdditions.h
